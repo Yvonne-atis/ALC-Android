@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/lblue">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="444dp"
+        android:text="@string/welcome_to_alc_4_0"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="245dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="347dp"
+        android:background="@drawable/bshape"
+        android:text="@string/about_alc"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnProf"
+        android:layout_width="245dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="261dp"
+        android:background="@drawable/cshape"
+        android:text="@string/my_profile"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
